@@ -1,0 +1,125 @@
+[
+  {
+    "icon": "fa fa-home",
+    "slug": "external",
+    "title": "Volver al Inicio",
+    "path": "../"
+  },  
+  { 
+    "id": 1,
+    "icon": "fa fa-play-circle",
+    "slug": "introduccion",
+    "title": "Introducción",
+    "breadcrumb": ["Inicio","Introducción"],
+    "path": "pages/introduccion.html"
+  },
+
+  {
+    "id": 2,
+    "icon": "fa fa-play-circle",
+    "slug": "produccion-platano",
+    "title": "1. Producción Platano ",
+    "breadcrumb": [
+      "Inicio",
+      "Producción Platano"
+    ],
+    "path": "pages/1-0-produccion-platano.html"
+  },
+  { 
+    "id": 3,
+    "icon": "fa fa-play-circle",
+    "slug": "labores-precosecha",
+    "title": "2. Labores de Precosecha",
+    "breadcrumb": ["Inicio","Labores de Precosecha"],
+    "path": "pages/2-0-labores-precosecha.html",    
+    "submenu": [
+      {
+        "icon": "fa fa-file-text",
+        "slug": "labores-precosecha",
+        "title": "2.1. Deshoje",
+        "anchor": "deshoje"
+      },
+      {
+        "icon": "fa fa-file-text",
+        "slug": "labores-precosecha",
+        "title": "2.2. Desguasque o descalcetamiento",
+        "anchor": "desguasquedescalcetamiento"
+      },
+      {
+        "icon": "fa fa-file-text",
+        "slug": "labores-precosecha",
+        "title": "2.3. Embolsado",
+        "anchor": "embolsado"
+      },
+      {
+        "icon": "fa fa-file-text",
+        "slug": "labores-precosecha",
+        "title": "2.4. Encintado",
+        "anchor": "encintado"
+      },
+      {
+        "icon": "fa fa-file-text",
+        "slug": "labores-precosecha",
+        "title": "2.5. Desflore",
+        "anchor": "desflore"
+      },
+      {
+        "icon": "fa fa-file-text",
+        "slug": "labores-precosecha",
+        "title": "2.6. Desbacote y desmane",
+        "anchor": "desbacotedesmane"
+      },
+      {
+        "icon": "fa fa-file-text",
+        "slug": "labores-precosecha",
+        "title": "2.7. Amarre o apuntalamiento",
+        "anchor": "amarreapuntalamiento"
+      }
+    ]   
+  },
+  { 
+    "id": 4,
+    "icon": "fa fa-play-circle",
+    "slug": "cosecha",
+    "title": "3. Cosecha",
+    "breadcrumb": ["Inicio","Cosecha"],
+    "path": "pages/3-0-cosecha.html",    
+    "submenu": [
+      {
+        "icon": "fa fa-file-text",
+        "slug": "cosecha",
+        "title": "3.1. índices de cosecha",
+        "anchor": "indicescosecha"
+      }
+    ]   
+  },
+  { 
+    "id": 5,
+    "icon": "fa fa-play-circle",
+    "slug": "poscosecha",
+    "title": "4. Poscosecha",
+    "breadcrumb": ["Inicio","Cosecha"],
+    "path": "pages/3-0-cosecha.html",    
+    "submenu": [
+      {
+        "icon": "fa fa-file-text",
+        "slug": "poscosecha",
+        "title": "4.1. Desmane o desdede",
+        "anchor": "desmanedesdede"
+      },
+      {
+        "icon": "fa fa-file-text",
+        "slug": "poscosecha",
+        "title": "4.2. Desleche",
+        "anchor": "desleche"
+      },
+      {
+        "icon": "fa fa-file-text",
+        "slug": "poscosecha",
+        "title": "4.3. Empaque",
+        "anchor": "empaque"
+      }
+    ]   
+  }
+
+]
