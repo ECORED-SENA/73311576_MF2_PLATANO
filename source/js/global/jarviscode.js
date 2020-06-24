@@ -70,13 +70,15 @@ function renderMenuSecondary(data) {
 
         document.getElementsByClassName('menu-secondary__link')[i].addEventListener('click', function () {
 
-            $.routes.find('path').routeTo({ slug: this.getAttribute("data-route") });
-            $('.menu-main__link--active').removeClass('menu-main__link--active');
-            $('.menu-secondary__link--active').removeClass('menu-secondary__link--active');
-            $(this).addClass('menu-secondary__link--active');
+            if (button.slug != "external" && button.slug != "externo" && button.slug != "pdf") {
+                $.routes.find('path').routeTo({ slug: this.getAttribute("data-route") });
+                $('.menu-main__link--active').removeClass('menu-main__link--active');
+                $('.menu-secondary__link--active').removeClass('menu-secondary__link--active');
+                $(this).addClass('menu-secondary__link--active');
 
-            $('#page-main-header').show();
-            document.getElementById('curso-titulo-tema').textContent = $(this).find('.menu-secondary__texto').html();
+                $('#page-main-header').show();
+                document.getElementById('curso-titulo-tema').textContent = $(this).find('.menu-secondary__texto').html();
+            }
 
         });
     });
