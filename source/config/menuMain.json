@@ -34,5 +34,11 @@
     "slug": "poscosecha",
     "title": "4. Poscosecha",
     "path": "pages/tema-4.html"
-  } 
+  },        
+  {
+    "icon": "fa fa-question-circle",
+    "slug": "actividad-1",
+    "title": "Actividad didáctica",
+    "path": "pages/actividad-1.html"
+  }     
 ]
